@@ -44,3 +44,6 @@ if __name__ == '__main__':
     productos1 = [producto1, producto2]
     orden1 = Orden(productos1)
     print(orden1)
+    orden2 = Orden(productos1)
+    print(orden2)
+    
