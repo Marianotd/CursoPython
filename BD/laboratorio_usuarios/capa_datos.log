@@ -41,3 +41,148 @@
 12:33:13 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
 12:33:13 PM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
 12:33:13 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001F47FD33890; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:57:53 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+04:57:53 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001E2C77E70D0>
+04:57:53 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000001E2C914F450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:57:53 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+04:57:53 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x000001E2C77E6A40>
+04:57:53 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001E2C914F450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:59:19 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+04:59:19 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000013B84036A90>
+04:59:19 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x0000013B8594F450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:59:19 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+04:59:19 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x0000013B840369C0>
+04:59:19 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x0000013B8594F450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:59:55 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+04:59:55 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000026502226A90>
+04:59:55 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x0000026503B3F450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:59:55 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+04:59:55 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x00000265022269C0>
+04:59:55 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x0000026503B3F450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:00:26 PM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+05:00:42 PM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+05:00:42 PM: INFO [logger_base.py: 13] Mensje a nivel info
+05:00:49 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:00:49 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001E62FAB6A90>
+05:00:49 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000001E6313CF450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:00:49 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:00:49 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x000001E62FAB69C0>
+05:00:49 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001E6313CF450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:01:36 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:01:36 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002DF64576A90>
+05:01:36 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000002DF65E8F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:01:36 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:01:36 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'DEBUG' - <class 'AttributeError'> - <traceback object at 0x000002DF645769C0>
+05:01:36 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000002DF65E8F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:01:59 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:01:59 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000023FAE036A90>
+05:01:59 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x0000023FAF95F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:01:59 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:01:59 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x0000023FAE0369C0>
+05:01:59 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x0000023FAF95F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:05:53 PM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+05:05:53 PM: INFO [logger_base.py: 13] Mensaje a nivel info
+05:05:53 PM: WARNING [logger_base.py: 14] Mensaje a nivel warning
+05:05:53 PM: ERROR [logger_base.py: 15] Mensaje a nivel error
+05:05:53 PM: CRITICAL [logger_base.py: 16] Mensaje a nivel critical
+05:08:33 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:08:34 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F336816A90>
+05:08:34 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000001F338133340; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:08:34 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:08:34 PM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
+05:08:34 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001F338133340; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:22:16 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:22:16 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001AEA35A7B90>
+05:22:16 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000001AEA4F03340; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:22:16 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:22:16 PM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
+05:22:16 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001AEA4F03340; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:24:54 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:24:54 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002C968CD7B90>
+05:24:54 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000002C96A5F3340; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:24:54 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:24:54 PM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
+05:24:54 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000002C96A5F3340; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:25:20 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:25:20 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F0EB907B90>
+05:25:20 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000001F0ED21F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:25:20 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:25:20 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x000001F0EB906A80>
+05:25:20 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001F0ED21F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:26:39 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x0000021F70496A80>
+05:33:44 PM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+05:33:44 PM: INFO [logger_base.py: 13] Mensaje a nivel info
+05:33:44 PM: WARNING [logger_base.py: 14] Mensaje a nivel warning
+05:33:44 PM: ERROR [logger_base.py: 15] Mensaje a nivel error
+05:33:44 PM: CRITICAL [logger_base.py: 16] Mensaje a nivel critical
+05:33:51 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:33:52 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001C316CD7B90>
+05:33:52 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x000001C3185F3450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:33:52 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:33:52 PM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: module 'logger_base' has no attribute 'debug' - <class 'AttributeError'> - <traceback object at 0x000001C316CD6A80>
+05:33:52 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x000001C3185F3450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:34:22 PM: DEBUG [logger_base.py: 12] Mensaje a nivel debug
+05:34:22 PM: INFO [logger_base.py: 13] Mensaje a nivel info
+05:34:22 PM: WARNING [logger_base.py: 14] Mensaje a nivel warning
+05:34:22 PM: ERROR [logger_base.py: 15] Mensaje a nivel error
+05:34:22 PM: CRITICAL [logger_base.py: 16] Mensaje a nivel critical
+05:49:56 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:49:56 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000020656FA7B90>
+05:49:56 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x0000020658913450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:49:56 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:49:56 PM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
+05:49:56 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x0000020658913450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:50:28 PM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+05:50:28 PM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000028011BF7B90>
+05:50:28 PM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x0000028013513450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:50:28 PM: DEBUG [usuario_dao.py: 81] Seleccionando usuarios
+05:50:28 PM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+05:50:28 PM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
+05:50:28 PM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x0000028013513450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:51:26 PM: INFO [logger_base.py: 13] Mensaje a nivel info
+05:51:26 PM: WARNING [logger_base.py: 14] Mensaje a nivel warning
+05:51:26 PM: ERROR [logger_base.py: 15] Mensaje a nivel error
+05:51:26 PM: CRITICAL [logger_base.py: 16] Mensaje a nivel critical
+10:04:16 AM: INFO [logger_base.py: 13] Mensaje a nivel info
+10:04:16 AM: WARNING [logger_base.py: 14] Mensaje a nivel warning
+10:04:16 AM: ERROR [logger_base.py: 15] Mensaje a nivel error
+10:04:16 AM: CRITICAL [logger_base.py: 16] Mensaje a nivel critical
+10:06:19 AM: INFO [menu_app_usuario.py: 20] Hola
+10:06:19 AM: INFO [menu_app_usuario.py: 20] Hola
+10:06:35 AM: INFO [menu_app_usuario.py: 20] Usuario: 1 - jperez - 123
+10:06:35 AM: INFO [menu_app_usuario.py: 20] Usuario: 2 - kgomez - 456
+10:06:48 AM: INFO [menu_app_usuario.py: 20] Usuario: 1 - jperez - 123
+10:06:48 AM: INFO [menu_app_usuario.py: 20] Usuario: 2 - kgomez - 456
+10:06:57 AM: DEBUG [cursor_del_pool.py: 11] Inicio del método with __enter__
+10:06:57 AM: DEBUG [conexion.py: 26] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000243EF6C2C10>
+10:06:57 AM: DEBUG [conexion.py: 38] Conexión obtenida del pool: <connection object at 0x00000243F1023450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:06:57 AM: DEBUG [usuario_dao.py: 20] Seleccionando usuarios
+10:06:57 AM: DEBUG [cursor_del_pool.py: 17] Se ejecuta método __exit__
+10:06:57 AM: DEBUG [cursor_del_pool.py: 24] Commit de la transacción
+10:06:57 AM: DEBUG [conexion.py: 44] Regresamos la conexión al pool: <connection object at 0x00000243F1023450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:06:57 AM: INFO [menu_app_usuario.py: 20] Usuario: 1 - jperez - 123
+10:06:57 AM: INFO [menu_app_usuario.py: 20] Usuario: 2 - kgomez - 456
+10:07:09 AM: INFO [logger_base.py: 13] Mensaje a nivel info
+10:07:09 AM: WARNING [logger_base.py: 14] Mensaje a nivel warning
+10:07:09 AM: ERROR [logger_base.py: 15] Mensaje a nivel error
+10:07:09 AM: CRITICAL [logger_base.py: 16] Mensaje a nivel critical
+10:09:54 AM: INFO [menu_app_usuario.py: 20] Usuario: 1 - jperez - 123
+10:09:54 AM: INFO [menu_app_usuario.py: 20] Usuario: 2 - kgomez - 456
+10:18:40 AM: INFO [menu_app_usuario.py: 23] Salimos de la aplicación
+10:37:38 AM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: 'Usuario' object has no attribute 'nombre' - <class 'AttributeError'> - <traceback object at 0x000001E8AF764B80>
+10:39:04 AM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: 'Usuario' object has no attribute 'nombre' - <class 'AttributeError'> - <traceback object at 0x000002919F426540>
+10:45:03 AM: INFO [menu_app_usuario.py: 30] Usuarios insertados: 1
+10:49:33 AM: INFO [menu_app_usuario.py: 21] Usuario: 1 - jperez - 123
+10:49:33 AM: INFO [menu_app_usuario.py: 21] Usuario: 2 - kgomez - 456
+10:49:33 AM: INFO [menu_app_usuario.py: 21] Usuario: 3 - mlara - 567
+10:51:27 AM: INFO [menu_app_usuario.py: 40] Usuarios actualizados: 1
+10:51:36 AM: INFO [menu_app_usuario.py: 21] Usuario: 1 - jperez - 123
+10:51:36 AM: INFO [menu_app_usuario.py: 21] Usuario: 2 - karlagomez - 8910
+10:51:36 AM: INFO [menu_app_usuario.py: 21] Usuario: 3 - mlara - 567
+11:01:01 AM: INFO [menu_app_usuario.py: 40] Usuarios actualizados: 1
+11:01:06 AM: INFO [menu_app_usuario.py: 21] Usuario: 1 - jperez - 123
+11:01:06 AM: INFO [menu_app_usuario.py: 21] Usuario: 2 - kgomez - 456
+11:01:06 AM: INFO [menu_app_usuario.py: 21] Usuario: 3 - mlara - 567
+11:01:25 AM: ERROR [cursor_del_pool.py: 20] Ocurrió una excepción, se hace rollback: 'int' object has no attribute 'id_usuario' - <class 'AttributeError'> - <traceback object at 0x000001EF7651D900>
+11:02:30 AM: INFO [menu_app_usuario.py: 48] Usuarios eliminados: 1
+11:03:10 AM: INFO [menu_app_usuario.py: 51] Salimos de la aplicación

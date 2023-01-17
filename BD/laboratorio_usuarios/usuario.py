@@ -30,4 +30,3 @@ class Usuario:
     @password.setter
     def password(self, password):
         self._password = password
-
