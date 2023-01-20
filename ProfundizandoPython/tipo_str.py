@@ -160,7 +160,6 @@
 # print('Serpiente: \U0001F40D')
 
 
-
 # Caracteres ascii
 # caracter = chr(65)
 # print('A mayúscula:', caracter)
@@ -172,5 +171,26 @@
 # print('a minúscula:', caracter)
 
 
+#  Caracteres bytes
+# caracteres_en_bytes = b'Hola Mundo'
+# print(caracteres_en_bytes)
+#
+# mensaje = b'Universidad Python'
+# print(mensaje[1])
+# print(chr(mensaje[1]))
+#
+# lista_caracteres = mensaje.split()
+# print(lista_caracteres)
 
-# 
+
+# Convertir str a bytes
+string = 'Programación con Python'
+print(f'String original: {string}')
+
+bytes = string.encode('UTF-8')
+print(f'Bytes codificado: {bytes}')
+
+# Convertir bytes a str
+strign2 = bytes.decode('UTF-8')
+print(f'String decodificado: {strign2}')
+print(string == strign2)
